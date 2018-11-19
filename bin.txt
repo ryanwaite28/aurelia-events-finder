@@ -1,0 +1,6 @@
+fetch('https://www.eventbriteapi.com/v3/events/search/?q=concert&location.address=Maryland&token=XUQP2TUYI7TP44E6JOZE').then(r => r.json()).then(j => { console.log(j); })
+https://www.eventbrite.com/developer/v3/quickstart/
+https://www.eventbrite.com/developer/v3/endpoints/events/#ebapi-get-events-search
+https://www.eventbrite.com/account-settings/apps
+
+http://api.weatherbit.io/v2.0/forecast/3hourly?city=London&country=UK&key=e268a460f10144f2adf17e24aec64541
